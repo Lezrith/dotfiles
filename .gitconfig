@@ -1,5 +1,6 @@
 [alias]
         alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
         publish = push -u origin HEAD
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
 [rebase]
         instructionFormat = (%an <%ae>) %s
