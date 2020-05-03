@@ -1,0 +1,11 @@
+{
+    "telemetry.enableTelemetry": false,
+    "editor.renderWhitespace": "boundary",
+    "files.insertFinalNewline": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "zenMode.restore": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true
+}
