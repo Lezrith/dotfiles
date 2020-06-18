@@ -3,5 +3,7 @@
         publish = push -u origin HEAD
         lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
         amend = commit --amend --no-edit
+        remove-merged = "!git branch --merged | grep -v '*' | xargs -n 1 git branch -d"
+        new-branch = "!f() { git checkout master && git pull && git checkout -b $1; }; f"
 [rebase]
         instructionFormat = (%an <%ae>) %s
